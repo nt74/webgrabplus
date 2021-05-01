@@ -11,5 +11,5 @@ Install instructions:
 
 How to use:
 1. For the first run use the command wg++
-2. This will create a new folder in the <home dir>/wg++
+2. This will create a new folder in the ~/wg++
 3. Make sure to create a valid config file (make sure to read instructions)
