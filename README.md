@@ -13,4 +13,4 @@ How to use:
 1. For the first run use the command wg++
 2. This will create a new folder in the ~/wg++
 3. Make sure to create a valid config file
-4. Make sure to read instructions at https://wiki.archlinux.org/title/WebGrab%2BPlus and www.webgrabplus.com/documentation
+4. Make sure to read instructions at wiki.archlinux.org/title/WebGrab%2BPlus and webgrabplus.com/documentation
