@@ -20,7 +20,7 @@ md5sums=('1f1ee11bb0c7db9068a6833788079d1b'
          '96ddf77a84554bb457dab4fd63e82ae6')
 
 pkgver() {
-  cd "webgrabplus-siteinipack"
+  cd "${srcdir}/webgrabplus-siteinipack"
   printf "${_pkgver}_r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
 }
 
