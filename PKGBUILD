@@ -27,7 +27,7 @@ pkgver() {
 package() {
 	# Install application files
 	mkdir -p "${pkgdir}/opt/wg++"
-  unzip -oq "${srcdir}/webgrabplus-siteinipack/evaluation-builds/V${pkgver}.zip" -d "${srcdir}/.wg++/bin"
+  unzip -oq "${srcdir}/webgrabplus-siteinipack/evaluation-builds/V${_pkgver}.zip" -d "${srcdir}/.wg++/bin"
 	cp -R "${srcdir}/.wg++/bin" "${pkgdir}/opt/wg++/"
 	cp -R "${srcdir}/.wg++/doc" "${pkgdir}/opt/wg++/"
   cp -R "${srcdir}/webgrabplus-siteinipack/siteini.pack" "${pkgdir}/opt/wg++/"
