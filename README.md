@@ -5,7 +5,7 @@ Please visit www.webgrabplus.com for more information.
 This build is made for any Arch Linux distribution using the AUR makepkg.
 
 Install instructions:
-1. git clone <git address>
+1. git clone https://github.com/nt74/webgrabplus.git
 2. cd webgrabplus
 3. makepkg -si
 
